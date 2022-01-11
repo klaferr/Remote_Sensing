@@ -1,0 +1,55 @@
+# A quick guide to IDL
+
+# for a comment:
+; this is a comment 
+
+# to define a variable:
+x = 3
+# as an array:
+y = [1, 2, 3]
+
+# to print:
+print, "x is ", x
+
+# to for loop:
+; for i from 0 to 4 in steps of 1, save 2*I to the corresponding row of array a 
+FOR i=0, 4 DO a[I] = 2*i 
+ENDFOR
+
+# to read data from a file:
+file = "filename.dat"
+readcol, file
+
+# to plot:
+plot, a, z
+
+# to define a function:
+FUNCTION name, input1, input2
+;
+; comments go here
+;
+
+out = input1+input2
+
+RETURN, out
+
+END
+
+# to run in command line:
+idl
+.run file_function
+
+# to create a program:
+PRO function, file_dir = file_dir
+END
+
+# for a if loop:
+; EQ is equals, LE is less than or equal to, GT is greater than, NE is not equal to  
+IF (a eq 0) THEN BEGIN
+; function goes here
+ENDIF ELSE BEGIN
+; other option
+ENDELSE
+
+# to write fits files:
+writefits, name, data
