@@ -2,14 +2,16 @@ PRO write_true_color, red, grn, blu, filename
 
 ; write_color_tiff.pro
 ;
-; Created by <<your name here>> on <<date>>
+; Created by Kris Laferriere on Jan 20, 2022
 ;
 ; Purpose: To output a color tiff image from a set of RGB images
 ;
 ; Inputs: red, grn, blu = names of images to be combined (requires all three).
-;         filename = string containing desired filename
-; Outputs: writes image file to working directory
+;         filename = string containing desired filename for output
 ;
+; Outputs: writes image file to working directory titled the filename provided
+;
+
 minv = 0.
 maxv = max([red, blu, grn])
 
