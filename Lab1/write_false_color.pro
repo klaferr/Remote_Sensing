@@ -1,4 +1,4 @@
-PRO write_false_color, red, grn, blu, filename, stretch
+PRO write_false_color, red, grn, blu, filename, KEYW1 = linear, KEY2 = linear2, KEY3 = sqrt, KEY4 = log
 
 ; write_color_tiff.pro
 ;
@@ -10,7 +10,7 @@ PRO write_false_color, red, grn, blu, filename, stretch
 ;         filename = string containing desired filename
 ; Outputs: writes image file to working directory
 ;
-IF stretch eq 'linear' THEN BEGIN
+IF KEYWORD_SET(linear) THEN BEGIN
   mr =  bytscl(red, min=min(red), max=max(red))
   mg =  bytscl(grn, min=min(grn), max=max(grn))
   mb =  bytscl(blu, min=min(blu), max=max(blu))
