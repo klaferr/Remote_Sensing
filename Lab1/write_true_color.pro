@@ -19,8 +19,8 @@ mb =  bytscl(blu, min=minv, max=maxv)
 
 window, 0, xsize=460, ysize=460, title='HST Mars 2001/05/13'
 tv, mr, channel=1
-tv, mr, channel=1
-tv, mr, channel=1
+tv, mg, channel=2
+tv, mb, channel=3
 erase
 
 tv, [[[mr]], [[mg]], [[mb]]], true=3
