@@ -1,15 +1,18 @@
-PRO write_false_color, red, grn, blu, filename, KEYW1 = linear, KEY2 = linear2, KEY3 = squareroot, KEY4 = log
+PRO write_false_color, red, grn, blu, filename, KEYW1 = linear, KEYW2 = linear2, KEYW3 = squareroot, KEYW4 = log
 
 ; write_color_tiff.pro
 ;
-; Created by <<your name here>> on <<date>>
+; Created by Kris Laferriere on Jan 20, 2022
 ;
 ; Purpose: To output a color tiff image from a set of RGB images
 ;
 ; Inputs: red, grn, blu = names of images to be combined (requires all three).
-;         filename = string containing desired filename
-; Outputs: writes image file to working directory
+;         filename = string containing desired filename for output
+;         KEYW = names of the method, either linear, linear 2%, square root or logarithmic
 ;
+; Outputs: writes image file to working directory with the provided filename
+;
+
 IF KEYWORD_SET(linear) THEN BEGIN
   mr =  bytscl(red, min=min(red), max=max(red))
   mg =  bytscl(grn, min=min(grn), max=max(grn))
