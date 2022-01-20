@@ -1,4 +1,4 @@
-PRO write_false_color, red, grn, blu, filename, KEYW1 = linear, KEY2 = linear2, KEY3 = sqrt, KEY4 = log
+PRO write_false_color, red, grn, blu, filename, KEYW1 = linear, KEY2 = linear2, KEY3 = squareroot, KEY4 = log
 
 ; write_color_tiff.pro
 ;
@@ -16,19 +16,19 @@ IF KEYWORD_SET(linear) THEN BEGIN
   mb =  bytscl(blu, min=min(blu), max=max(blu))
 END
 
-IF stretch eq 'linear2' THEN BEGIN
+IF KEYWORD_SET(linear2) THEN BEGIN
   mr =  bytscl(red, min=0.02*max(red), max=0.98*max(red))
   mg =  bytscl(grn, min=0.02*max(grn), max=0.98*max(grn))
   mb =  bytscl(blu, min=0.02*max(blu), max=0.98*max(blu))
 END
 
-IF stretch eq 'sqrt' THEN BEGIN
+IF KEYWORD_SET(squareroot) THEN BEGIN
   mr =  bytscl(red, min=min(sqrt(red)), max=max(sqrt(red)))
   mg =  bytscl(grn, min=min(sqrt(grn)), max=max(sqrt(grn)))
   mb =  bytscl(blu, min=min(sqrt(blu)), max=max(sqrt(blu)))
 END
 
-IF stretch eq 'log' THEN BEGIN
+IF KEYWORD_SET(log) THEN BEGIN
   mr =  bytscl(red, min=min(alog(red)), max=max(alog(red)))
   mg =  bytscl(grn, min=min(alog(grn)), max=max(alog(grn)))
   mb =  bytscl(blu, min=min(alog(blu)), max=max(alog(blu)))
