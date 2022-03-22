@@ -1,0 +1,52 @@
+ENVI
+description = {
+  File Resize Result, x resize factor: 1.000000, y resize factor: 1.000000.
+  [Tue Mar 22 11:38:07 2022]}
+samples = 633
+lines   = 529
+bands   = 50
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bil
+sensor type = MODIS
+byte order = 0
+x start = 84
+y start = 1310
+wavelength units = Unknown
+z plot titles = {Wavelength (um), Radiance}
+band names = {
+ Resize (Band 1:9900511f.hdf), Resize (Band 2:9900511f.hdf), 
+ Resize (Band 3:9900511f.hdf), Resize (Band 4:9900511f.hdf), 
+ Resize (Band 5:9900511f.hdf), Resize (Band 6:9900511f.hdf), 
+ Resize (Band 7:9900511f.hdf), Resize (Band 8:9900511f.hdf), 
+ Resize (Band 9:9900511f.hdf), Resize (Band 10:9900511f.hdf), 
+ Resize (Band 11:9900511f.hdf), Resize (Band 12:9900511f.hdf), 
+ Resize (Band 13:9900511f.hdf), Resize (Band 14:9900511f.hdf), 
+ Resize (Band 15:9900511f.hdf), Resize (Band 16:9900511f.hdf), 
+ Resize (Band 17:9900511f.hdf), Resize (Band 18:9900511f.hdf), 
+ Resize (Band 19:9900511f.hdf), Resize (Band 20:9900511f.hdf), 
+ Resize (Band 21:9900511f.hdf), Resize (Band 22:9900511f.hdf), 
+ Resize (Band 23:9900511f.hdf), Resize (Band 24:9900511f.hdf), 
+ Resize (Band 25:9900511f.hdf), Resize (Band 26:9900511f.hdf), 
+ Resize (Band 27:9900511f.hdf), Resize (Band 28:9900511f.hdf), 
+ Resize (Band 29:9900511f.hdf), Resize (Band 30:9900511f.hdf), 
+ Resize (Band 31:9900511f.hdf), Resize (Band 32:9900511f.hdf), 
+ Resize (Band 33:9900511f.hdf), Resize (Band 34:9900511f.hdf), 
+ Resize (Band 35:9900511f.hdf), Resize (Band 36:9900511f.hdf), 
+ Resize (Band 37:9900511f.hdf), Resize (Band 38:9900511f.hdf), 
+ Resize (Band 39:9900511f.hdf), Resize (Band 40:9900511f.hdf), 
+ Resize (Band 41:9900511f.hdf), Resize (Band 42:9900511f.hdf), 
+ Resize (Band 43:9900511f.hdf), Resize (Band 44:9900511f.hdf), 
+ Resize (Band 45:9900511f.hdf), Resize (Band 46:9900511f.hdf), 
+ Resize (Band 47:9900511f.hdf), Resize (Band 48:9900511f.hdf), 
+ Resize (Band 49:9900511f.hdf), Resize (Band 50:9900511f.hdf)}
+wavelength = {
+  0.460000,  0.500000,  0.542000,  0.582000,  0.654000,  0.712000,  0.752000,
+  0.802000,  0.870000,  0.908000,  0.948000,  1.614000,  1.670000,  1.724000,
+  1.780000,  1.832000,  1.878000,  1.934000,  1.982000,  2.086000,  2.166000,
+  2.216000,  2.264000,  2.328000,  2.396000,  3.120000,  3.275000,  3.440000,
+  3.590000,  3.740000,  3.900000,  4.055000,  4.207000,  4.357000,  4.520000,
+  4.670000,  4.825000,  4.975000,  5.125000,  5.275000,  7.793000,  8.205000,
+  8.625000,  9.054000,  9.665000, 10.085000, 10.554000, 11.184000, 12.074000,
+ 12.845000}

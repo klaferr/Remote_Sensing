@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Forward PC Result [Tue Mar 22 11:39:16 2022]}
+samples = 633
+lines   = 529
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bil
+sensor type = Unknown
+byte order = 0
+x start = 84
+y start = 1310
+wavelength units = Unknown
+band names = {
+ PC Band 1 (cuprite.img), PC Band 2 (cuprite.img), PC Band 3 (cuprite.img)}
+original wavelength = {
+ 0.460000, 0.542000, 0.712000}

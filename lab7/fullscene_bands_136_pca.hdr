@@ -1,0 +1,18 @@
+ENVI
+description = {
+  Forward PC Result [Tue Mar 22 11:22:28 2022]}
+samples = 716
+lines   = 2028
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bil
+sensor type = Unknown
+byte order = 0
+wavelength units = Unknown
+band names = {
+ PC Band 1 (9900511f.hdf), PC Band 2 (9900511f.hdf), 
+ PC Band 3 (9900511f.hdf)}
+original wavelength = {
+ 0.460000, 0.542000, 0.712000}

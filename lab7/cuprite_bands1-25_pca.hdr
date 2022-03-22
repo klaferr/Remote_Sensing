@@ -1,0 +1,32 @@
+ENVI
+description = {
+  Forward PC Result [Tue Mar 22 11:40:14 2022]}
+samples = 633
+lines   = 529
+bands   = 25
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bil
+sensor type = Unknown
+byte order = 0
+x start = 84
+y start = 1310
+wavelength units = Unknown
+band names = {
+ PC Band 1 (cuprite.img), PC Band 2 (cuprite.img), PC Band 3 (cuprite.img), 
+ PC Band 4 (cuprite.img), PC Band 5 (cuprite.img), PC Band 6 (cuprite.img), 
+ PC Band 7 (cuprite.img), PC Band 8 (cuprite.img), PC Band 9 (cuprite.img), 
+ PC Band 10 (cuprite.img), PC Band 11 (cuprite.img), 
+ PC Band 12 (cuprite.img), PC Band 13 (cuprite.img), 
+ PC Band 14 (cuprite.img), PC Band 15 (cuprite.img), 
+ PC Band 16 (cuprite.img), PC Band 17 (cuprite.img), 
+ PC Band 18 (cuprite.img), PC Band 19 (cuprite.img), 
+ PC Band 20 (cuprite.img), PC Band 21 (cuprite.img), 
+ PC Band 22 (cuprite.img), PC Band 23 (cuprite.img), 
+ PC Band 24 (cuprite.img), PC Band 25 (cuprite.img)}
+original wavelength = {
+ 0.460000, 0.500000, 0.542000, 0.582000, 0.654000, 0.712000, 0.752000,
+ 0.802000, 0.870000, 0.908000, 0.948000, 1.614000, 1.670000, 1.724000,
+ 1.780000, 1.832000, 1.878000, 1.934000, 1.982000, 2.086000, 2.166000,
+ 2.216000, 2.264000, 2.328000, 2.396000}
