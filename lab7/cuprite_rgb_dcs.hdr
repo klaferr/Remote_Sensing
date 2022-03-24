@@ -1,0 +1,16 @@
+ENVI
+description = {
+  Decorrelation Stretch Result [Thu Mar 24 13:26:46 2022]}
+samples = 716
+lines   = 2028
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+wavelength units = Unknown
+band names = {
+ R DS (Band 1:9900511f.hdf), G DS (Band 3:9900511f.hdf), 
+ B DS (Band 6:9900511f.hdf)}

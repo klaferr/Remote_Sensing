@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Decorrelation Stretch Result [Thu Mar 24 13:39:56 2022]}
+samples = 633
+lines   = 529
+bands   = 3
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+x start = 84
+y start = 1310
+wavelength units = Unknown
+band names = {
+ R DS (Resize (Band 42:9900511f.hdf):cuprite.img), 
+ G DS (Resize (Band 44:9900511f.hdf):cuprite.img), 
+ B DS (Resize (Band 47:9900511f.hdf):cuprite.img)}
